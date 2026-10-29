@@ -1,0 +1,7 @@
+{
+  "name": "DukaShield",
+  "description": "Smart business assistant for East African small shopkeepers: track sales, manage debts, monitor stock, and automate Africa's Talking SMS alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

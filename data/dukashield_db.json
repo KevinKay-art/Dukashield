@@ -1,0 +1,537 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Unga wa Dola Maize Meal 2kg",
+      "sku": "UNG-DOL-2KG",
+      "category": "Flour & Grains",
+      "cost_price": 155,
+      "selling_price": 195,
+      "current_stock": 28,
+      "low_stock_threshold": 8,
+      "unit": "packet",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Fresha Whole Milk 500ml",
+      "sku": "MLK-FRS-500",
+      "category": "Dairy",
+      "cost_price": 52,
+      "selling_price": 65,
+      "current_stock": 3,
+      "low_stock_threshold": 10,
+      "unit": "pouch",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Broadways Sliced White Bread 400g",
+      "sku": "BRD-BDW-400",
+      "category": "Bakery",
+      "cost_price": 55,
+      "selling_price": 65,
+      "current_stock": 14,
+      "low_stock_threshold": 6,
+      "unit": "loaf",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Rina Pure Vegetable Cooking Oil 1L",
+      "sku": "OIL-RIN-1L",
+      "category": "Oils & Fats",
+      "cost_price": 265,
+      "selling_price": 310,
+      "current_stock": 11,
+      "low_stock_threshold": 5,
+      "unit": "bottle",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Menengai Cream Bar Soap 800g",
+      "sku": "SOP-MNG-800",
+      "category": "Detergents & Soap",
+      "cost_price": 140,
+      "selling_price": 175,
+      "current_stock": 19,
+      "low_stock_threshold": 5,
+      "unit": "bar",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Mumias Sugar White 1kg",
+      "sku": "SGR-MUM-1KG",
+      "category": "Pantry",
+      "cost_price": 140,
+      "selling_price": 165,
+      "current_stock": 22,
+      "low_stock_threshold": 6,
+      "unit": "packet",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Kensalt Iodised Table Salt 1kg",
+      "sku": "SLT-KEN-1KG",
+      "category": "Pantry",
+      "cost_price": 35,
+      "selling_price": 45,
+      "current_stock": 42,
+      "low_stock_threshold": 10,
+      "unit": "packet",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-8",
+      "name": "Ketepa Chai Pride Loose Tea 250g",
+      "sku": "TEA-KTP-250",
+      "category": "Beverages",
+      "cost_price": 110,
+      "selling_price": 135,
+      "current_stock": 16,
+      "low_stock_threshold": 5,
+      "unit": "box",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    },
+    {
+      "id": "prod-9",
+      "name": "Indomie Chicken Flavor 120g",
+      "sku": "NDL-IND-120",
+      "category": "Pantry",
+      "cost_price": 38,
+      "selling_price": 50,
+      "current_stock": 34,
+      "low_stock_threshold": 12,
+      "unit": "packet",
+      "created_at": "2026-09-28T17:49:24.410Z",
+      "updated_at": "2026-10-28T17:49:24.410Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "John Kamau",
+      "phone": "+254712345678",
+      "notes": "Neighbor from Plot 4B, regular buyer of dairy and staples",
+      "total_debt_accumulated": 1450,
+      "total_debt_repaid": 0,
+      "created_at": "2026-09-18T17:49:24.410Z"
+    },
+    {
+      "id": "cust-2",
+      "name": "Grace Atieno",
+      "phone": "+254723456789",
+      "notes": "Mama Kevin, operates tailoring shop opposite the road",
+      "total_debt_accumulated": 850,
+      "total_debt_repaid": 0,
+      "created_at": "2026-10-03T17:49:24.410Z"
+    },
+    {
+      "id": "cust-3",
+      "name": "Peter Mwangi",
+      "phone": "+254734567890",
+      "notes": "Boda boda operator, Eldoret stage",
+      "total_debt_accumulated": 2100,
+      "total_debt_repaid": 1100,
+      "created_at": "2026-08-29T17:49:24.410Z"
+    },
+    {
+      "id": "cust-4",
+      "name": "Faith Chebet",
+      "phone": "+254745678901",
+      "notes": "Teacher at St. Peter Academy, pays every end month via M-Pesa",
+      "total_debt_accumulated": 520,
+      "total_debt_repaid": 520,
+      "created_at": "2026-07-30T17:49:24.410Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-t3",
+      "receipt_number": "RCP-20261028-003",
+      "customer_id": null,
+      "customer_name": "Walk-in Customer",
+      "total_amount": 295,
+      "cost_amount": 247,
+      "profit_amount": 48,
+      "payment_method": "cash",
+      "sale_date": "2026-10-28",
+      "created_at": "2026-10-28T17:04:24.410Z",
+      "items": [
+        {
+          "id": "si-t3-1",
+          "sale_id": "sale-t3",
+          "product_id": "prod-3",
+          "product_name": "Broadways Sliced White Bread 400g",
+          "quantity": 2,
+          "cost_price": 55,
+          "selling_price": 65,
+          "subtotal": 130,
+          "profit": 20
+        },
+        {
+          "id": "si-t3-2",
+          "sale_id": "sale-t3",
+          "product_id": "prod-6",
+          "product_name": "Mumias Sugar White 1kg",
+          "quantity": 1,
+          "cost_price": 140,
+          "selling_price": 165,
+          "subtotal": 165,
+          "profit": 25
+        }
+      ]
+    },
+    {
+      "id": "sale-t2",
+      "receipt_number": "RCP-20261028-002",
+      "customer_id": "cust-2",
+      "customer_name": "Grace Atieno",
+      "total_amount": 585,
+      "cost_amount": 465,
+      "profit_amount": 120,
+      "payment_method": "mpesa",
+      "sale_date": "2026-10-28",
+      "created_at": "2026-10-28T15:49:24.410Z",
+      "items": [
+        {
+          "id": "si-t2-1",
+          "sale_id": "sale-t2",
+          "product_id": "prod-1",
+          "product_name": "Unga wa Dola Maize Meal 2kg",
+          "quantity": 1,
+          "cost_price": 155,
+          "selling_price": 195,
+          "subtotal": 195,
+          "profit": 40
+        },
+        {
+          "id": "si-t2-2",
+          "sale_id": "sale-t2",
+          "product_id": "prod-4",
+          "product_name": "Rina Pure Vegetable Cooking Oil 1L",
+          "quantity": 1,
+          "cost_price": 265,
+          "selling_price": 310,
+          "subtotal": 310,
+          "profit": 45
+        },
+        {
+          "id": "si-t2-3",
+          "sale_id": "sale-t2",
+          "product_id": "prod-7",
+          "product_name": "Kensalt Iodised Table Salt 1kg",
+          "quantity": 1,
+          "cost_price": 35,
+          "selling_price": 45,
+          "subtotal": 45,
+          "profit": 10
+        }
+      ]
+    },
+    {
+      "id": "sale-t1",
+      "receipt_number": "RCP-20261028-001",
+      "customer_id": null,
+      "customer_name": "Walk-in Customer",
+      "total_amount": 325,
+      "cost_amount": 260,
+      "profit_amount": 65,
+      "payment_method": "cash",
+      "sale_date": "2026-10-28",
+      "created_at": "2026-10-28T13:49:24.410Z",
+      "items": [
+        {
+          "id": "si-t1-1",
+          "sale_id": "sale-t1",
+          "product_id": "prod-2",
+          "product_name": "Fresha Whole Milk 500ml",
+          "quantity": 5,
+          "cost_price": 52,
+          "selling_price": 65,
+          "subtotal": 325,
+          "profit": 65
+        }
+      ]
+    },
+    {
+      "id": "sale-y2",
+      "receipt_number": "RCP-20261027-002",
+      "customer_id": null,
+      "customer_name": "Walk-in Customer",
+      "total_amount": 620,
+      "cost_amount": 530,
+      "profit_amount": 90,
+      "payment_method": "cash",
+      "sale_date": "2026-10-27",
+      "created_at": "2026-10-28T07:49:24.410Z",
+      "items": [
+        {
+          "id": "si-y2-1",
+          "sale_id": "sale-y2",
+          "product_id": "prod-4",
+          "product_name": "Rina Pure Vegetable Cooking Oil 1L",
+          "quantity": 2,
+          "cost_price": 265,
+          "selling_price": 310,
+          "subtotal": 620,
+          "profit": 90
+        }
+      ]
+    },
+    {
+      "id": "sale-y1",
+      "receipt_number": "RCP-20261027-001",
+      "customer_id": "cust-4",
+      "customer_name": "Faith Chebet",
+      "total_amount": 520,
+      "cost_amount": 415,
+      "profit_amount": 105,
+      "payment_method": "mpesa",
+      "sale_date": "2026-10-27",
+      "created_at": "2026-10-28T03:49:24.410Z",
+      "items": [
+        {
+          "id": "si-y1-1",
+          "sale_id": "sale-y1",
+          "product_id": "prod-1",
+          "product_name": "Unga wa Dola Maize Meal 2kg",
+          "quantity": 2,
+          "cost_price": 155,
+          "selling_price": 195,
+          "subtotal": 390,
+          "profit": 80
+        },
+        {
+          "id": "si-y1-2",
+          "sale_id": "sale-y1",
+          "product_id": "prod-3",
+          "product_name": "Broadways Sliced White Bread 400g",
+          "quantity": 2,
+          "cost_price": 55,
+          "selling_price": 65,
+          "subtotal": 130,
+          "profit": 20
+        }
+      ]
+    }
+  ],
+  "debts": [
+    {
+      "id": "debt-2",
+      "customer_id": "cust-2",
+      "customer_name": "Grace Atieno",
+      "customer_phone": "+254723456789",
+      "initial_amount": 850,
+      "paid_amount": 0,
+      "remaining_amount": 850,
+      "incurred_date": "2026-10-25",
+      "due_date": "2026-10-29",
+      "status": "overdue",
+      "notes": "Fresha Milk, Bread & Chai Pride tea packet",
+      "last_reminder_sent_at": "2026-10-28T18:34:42.254Z",
+      "created_at": "2026-10-25T17:49:24.410Z",
+      "payments": []
+    },
+    {
+      "id": "debt-1",
+      "customer_id": "cust-1",
+      "customer_name": "John Kamau",
+      "customer_phone": "+254712345678",
+      "initial_amount": 1450,
+      "paid_amount": 0,
+      "remaining_amount": 1450,
+      "incurred_date": "2026-10-14",
+      "due_date": "2026-10-23",
+      "status": "overdue",
+      "notes": "Unga wa Dola 2 bags + 2kg Sugar + cooking oil",
+      "last_reminder_sent_at": null,
+      "created_at": "2026-10-14T17:49:24.410Z",
+      "payments": []
+    },
+    {
+      "id": "debt-3",
+      "customer_id": "cust-3",
+      "customer_name": "Peter Mwangi",
+      "customer_phone": "+254734567890",
+      "initial_amount": 2100,
+      "paid_amount": 1100,
+      "remaining_amount": 1000,
+      "incurred_date": "2026-10-08",
+      "due_date": "2026-10-23",
+      "status": "overdue",
+      "notes": "Weekly groceries for family",
+      "last_reminder_sent_at": "2026-10-26T17:49:24.410Z",
+      "created_at": "2026-10-08T17:49:24.410Z",
+      "payments": [
+        {
+          "id": "pay-1",
+          "debt_id": "debt-3",
+          "customer_id": "cust-3",
+          "amount": 1100,
+          "payment_date": "2026-10-21",
+          "payment_method": "mpesa",
+          "receipt_reference": "QGK72910M",
+          "created_at": "2026-10-21T17:49:24.410Z"
+        }
+      ]
+    }
+  ],
+  "debt_payments": [
+    {
+      "id": "pay-1",
+      "debt_id": "debt-3",
+      "customer_id": "cust-3",
+      "amount": 1100,
+      "payment_date": "2026-10-21",
+      "payment_method": "mpesa",
+      "receipt_reference": "QGK72910M",
+      "created_at": "2026-10-21T17:49:24.410Z"
+    }
+  ],
+  "sms_logs": [
+    {
+      "recipient_phone": "+254712345678",
+      "recipient_name": "Test Recipient",
+      "purpose": "test",
+      "message_text": "DukaShield live test message via Africa's Talking Sandbox!",
+      "provider_message_id": "ATXid_3a70c4290ee6db89a12fb086c4e24f28",
+      "provider_status": "Success",
+      "status_code": 101,
+      "cost": "KES 0.8000",
+      "delivery_status": "pending",
+      "delivery_timestamp": null,
+      "failure_reason": null,
+      "is_demo_simulation": false,
+      "raw_response": {
+        "SMSMessageData": {
+          "Message": "Sent to 1/1 Total Cost: KES 0.8000 Message parts: 1",
+          "Recipients": [
+            {
+              "cost": "KES 0.8000",
+              "messageId": "ATXid_3a70c4290ee6db89a12fb086c4e24f28",
+              "number": "+254712345678",
+              "status": "Success",
+              "statusCode": 101
+            }
+          ]
+        }
+      },
+      "id": "sms-1793212467466-ye6kb",
+      "created_at": "2026-10-28T18:34:27.466Z"
+    },
+    {
+      "recipient_phone": "+254712345678",
+      "recipient_name": "Mama Boi Duka & General Supplies Shopkeeper",
+      "purpose": "stock_alert",
+      "message_text": "DukaShield Alert: Item is running low. Current stock: low. Reorder soon to avoid running out.",
+      "provider_message_id": null,
+      "provider_status": "HTTP 401 Error",
+      "status_code": 401,
+      "cost": null,
+      "delivery_status": "failed",
+      "delivery_timestamp": null,
+      "failure_reason": "HTTP 401: Unauthorized",
+      "is_demo_simulation": false,
+      "raw_response": {
+        "rawText": "The supplied authentication is invalid"
+      },
+      "id": "sms-1793212343322-fatml",
+      "created_at": "2026-10-28T18:32:23.322Z"
+    },
+    {
+      "recipient_phone": "+254712345678",
+      "recipient_name": "Test Recipient",
+      "purpose": "test",
+      "message_text": "DukaShield live test",
+      "provider_message_id": null,
+      "provider_status": "HTTP 401 Error",
+      "status_code": 401,
+      "cost": null,
+      "delivery_status": "failed",
+      "delivery_timestamp": null,
+      "failure_reason": "HTTP 401: Unauthorized",
+      "is_demo_simulation": false,
+      "raw_response": {
+        "rawText": "The supplied authentication is invalid"
+      },
+      "id": "sms-1793210607931-0dxkb",
+      "created_at": "2026-10-28T18:03:27.931Z"
+    },
+    {
+      "id": "sms-seed-1",
+      "recipient_phone": "+254712345678",
+      "recipient_name": "Mama Boi (Shopkeeper)",
+      "purpose": "test",
+      "message_text": "DukaShield Sandbox Verification: SMS Gateway connected. Ready to protect your duka.",
+      "provider_message_id": "ATXid_b49f28a8d9e7",
+      "provider_status": "Success",
+      "status_code": 101,
+      "cost": "KES 0.8000",
+      "delivery_status": "delivered",
+      "delivery_timestamp": "2026-10-27T05:49:24.410Z",
+      "failure_reason": null,
+      "is_demo_simulation": false,
+      "raw_response": {
+        "SMSMessageData": {
+          "Message": "Sent to 1/1 Total Cost: KES 0.8000",
+          "Recipients": [
+            {
+              "cost": "KES 0.8000",
+              "messageId": "ATXid_b49f28a8d9e7",
+              "number": "+254712345678",
+              "status": "Success",
+              "statusCode": 101
+            }
+          ]
+        }
+      },
+      "created_at": "2026-10-27T05:49:24.410Z"
+    }
+  ],
+  "business_alerts": [
+    {
+      "id": "alert-1",
+      "type": "low_stock",
+      "title": "Fresha Milk is critically low",
+      "message": "Fresha Whole Milk 500ml has only 3 pouches left. Threshold is 10.",
+      "severity": "critical",
+      "reference_id": "prod-2",
+      "acknowledged": false,
+      "sms_sent": false,
+      "created_at": "2026-10-28T15:49:24.410Z"
+    },
+    {
+      "id": "alert-2",
+      "type": "overdue_debt",
+      "title": "John Kamau debt is 5 days overdue",
+      "message": "John Kamau owes KES 1,450 since 2 weeks ago. Due date was 5 days ago.",
+      "severity": "warning",
+      "reference_id": "debt-1",
+      "acknowledged": false,
+      "sms_sent": false,
+      "created_at": "2026-10-27T17:49:24.410Z"
+    }
+  ],
+  "settings": {
+    "shop_name": "Mama Boi Duka & General Supplies",
+    "shopkeeper_phone": "+254712345678",
+    "currency": "KES",
+    "at_username": "sandbox",
+    "at_api_key_configured": true,
+    "app_url": "https://ais-dev-bscnsuporyfwsoeqnzdi2x-51694486837.europe-west2.run.app",
+    "stored_api_key": "atsk_0b87f371d1d288700ac639b38f53e82d6adc31eb7ca02a0bf633c5b50228ec822e02b784",
+    "ussd_service_code": "*384*88924#"
+  }
+}
